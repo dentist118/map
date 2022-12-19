@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 st.title("DR. MAHMOUD SITE.")
 
-image = Image.open("Users/md/Desktop/mody.gif")
+image = Image.open("https://daanbio-printai-printai-yny7c6.streamlit.app/~/+/media/f1488d35dd3509cd93a1a7c2e7e787e91ba09d577cbd9130913aa507.jpg")
 st.image(image,use_column_width=True)
 
 
