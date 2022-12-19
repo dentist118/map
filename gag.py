@@ -3,7 +3,7 @@ from PIL import Image
  
 st.title("DR. MAHMOUD SITE.")
 
-image = Image.open('https://thumbs.dreamstime.com/z/domestic-cats-13906039.jpg')
+image = Image.open('https://cdn-images-1.medium.com/max/1024/1*u9U3YjxT9c9A1FIaDMonHw.png')
 st.image(image,use_column_width=False)
 
 n_words =st.number_input('Type the number of words you want to generate')
