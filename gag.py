@@ -3,7 +3,7 @@ import pathlib
 from PIL import Image ,ImagePath
 st.title("DR. MAHMOUD SITE.")
 
-image = Image.open("medo1.jpg")
+image = Image.open("C:/medo1.jpg")
 st.image(image,use_column_width=True)
 
 
