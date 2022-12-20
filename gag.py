@@ -4,8 +4,7 @@ from PIL import Image ,ImagePath
 st.title("DR. MAHMOUD SITE.")
 
 image = Image.open("C:/medo1.jpg")
-
-st.image(image,use_column_width=True)
+st.image(image)
 
 
 n_words =st.number_input('Type the number of words you want to generate')
