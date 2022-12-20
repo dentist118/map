@@ -6,7 +6,7 @@ st.title("DR. MAHMOUD SITE.")
 if st.checkbox('checkbox'):
     st.image('medo1.png')
 
-#image = Image.open('medo1.png')
+image = Image.open('medo1.png')
 #st.image(image)
 
 
