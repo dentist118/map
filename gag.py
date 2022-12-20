@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image ,ImagePath
 st.title("DR. MAHMOUD SITE.")
 
-image = Image.open('medo1.jpg')
+image = Image.open('medo1.png')
 st.image(image)
 
 
