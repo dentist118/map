@@ -3,11 +3,11 @@ import pathlib
 from pathlib import Path
 from PIL import Image ,ImagePath
 st.title("DR. MAHMOUD SITE.")
-if st.checkbox('checkbox'):
-    st.image('medo1.png')
+#if st.checkbox('checkbox'):
+   # st.image('medo1.png')
 
 image = Image.open('medo1.png')
-#st.image(image)
+st.image(image)
 
 
 n_words =st.number_input('Type the number of words you want to generate')
