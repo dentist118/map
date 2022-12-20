@@ -1,9 +1,10 @@
 import streamlit as st
 import pathlib
+from pathlib import Path
 from PIL import Image ,ImagePath
 st.title("DR. MAHMOUD SITE.")
 
-image = Image.open("C:/medo1.jpg")
+image = Image.open('medo1.jpg')
 st.image(image)
 
 
