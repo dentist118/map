@@ -12,8 +12,6 @@ st.image(
             caption=["congrats"] ,
            use_column_width=True,
             
-            
-            clamp=True,
           )
 
 #caption = "hello!"
