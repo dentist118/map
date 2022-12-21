@@ -1,7 +1,7 @@
 import streamlit as st
-import pathlib
-from pathlib import Path
-from PIL import Image ,ImagePath
+#import pathlib
+#from pathlib import Path
+from PIL import Image 
 st.title("DR. MAHMOUD SITE.")
 #if st.checkbox('checkbox'):
    # st.image('medo1.png')
@@ -9,7 +9,7 @@ url = "https://bgremoval.streamlit.app/~/+/media/e41ef1cefe668882972d74a560811ab
 #caption = "ahoy!"
 
         
-image = Image.open(url)
+image = Image.open('url')
 st.image(url,use_column_width=True)
 
 n_words =st.number_input('Type the number of words you want to generate')
