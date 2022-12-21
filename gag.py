@@ -11,7 +11,7 @@ st.image(
             [url],
             caption=["congrats"] ,
             width=200,
-            use_column_width=True,
+            
             clamp=True,
             
 )
