@@ -11,7 +11,7 @@ st.image(
             [url],
             caption=["congrats"] ,
            )
-
+image.resize((300, 200)
 #caption = "hello!"
 #image = Image.open('url')
 
