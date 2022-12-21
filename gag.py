@@ -13,7 +13,8 @@ st.image(
            use_column_width=True,
             
           )
-
+new_image = image.resize((600, 400))
+st.image(new_image)
 #caption = "hello!"
 #image = Image.open('url')
 
