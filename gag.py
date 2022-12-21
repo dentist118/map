@@ -10,7 +10,7 @@ url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anima
 st.image(
             [url],
             caption=["congrats"] ,
-            width=500,
+           use_column_width=True,
             
             
             clamp=True,
