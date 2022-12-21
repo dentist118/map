@@ -23,11 +23,11 @@ def add_bg_from_url():
 
 add_bg_from_url() 
 
-#url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-3.jpg"
-#st.image(
-         #   [url],
-          #  caption=["congrats"] ,
-       # )
+url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-3.jpg"
+st.image(
+            [url],
+           caption=["congrats"] ,
+        )
           
 
 #caption = "hello!"
