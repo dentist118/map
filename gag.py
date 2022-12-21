@@ -5,7 +5,7 @@ from PIL import Image
 st.title("DR. MAHMOUD SITE.")
 #if st.checkbox('checkbox'):
    # st.image('medo1.png')
- image = [
+image = [
             Image.new("RGB", (64, 64), color="gray"),
             
         ]
