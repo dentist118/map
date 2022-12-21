@@ -9,7 +9,7 @@ image = [
             Image.new("RGB", (64, 64), color="gray"),
             
         ]
-url = "https://bgremoval.streamlit.app/~/+/media/bbf3f12dd6d621ff2f92e9b8bc9ff32d65308b8cace4a7f67dfb3bd8.png"
+url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-3.jpg"
 caption = "hello!"
 
         
