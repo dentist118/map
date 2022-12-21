@@ -9,7 +9,7 @@ image = [
             Image.new("RGB", (64, 64), color="gray"),
             
         ]
-url = "https://bgremoval.streamlit.app/~/+/media/c4e5367c557d51b94574671c91778cff53fb5aff96f31ed81ece3e63.jpg"
+url = "https://bgremoval.streamlit.app/~/+/media/bbf3f12dd6d621ff2f92e9b8bc9ff32d65308b8cace4a7f67dfb3bd8.png"
 #caption = "hello!"
 
         
