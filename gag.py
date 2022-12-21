@@ -5,10 +5,7 @@ from PIL import Image
 st.title("DR. MAHMOUD SITE.")
 #if st.checkbox('checkbox'):
    # st.image('medo1.png')
-#image = [
-            Image.new("RGB", (64, 64), color="gray"),
-            
-        ]
+
 url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-3.jpg"
 #caption = "hello!"
 
