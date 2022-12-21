@@ -7,8 +7,8 @@ st.title("DR. MAHMOUD SITE.")
    # st.image('medo1.png')
    
    
-   def add_bg_from_url():
-    st.markdown(
+def add_bg_from_url():
+  st.markdown(
          f"""
          <style>
          .stApp {{
