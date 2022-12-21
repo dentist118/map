@@ -7,6 +7,18 @@ st.title("DR. MAHMOUD SITE.")
    # st.image('medo1.png')
 
 url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/animal-3.jpg"
+st.image(
+            [url],
+            caption=["congrats"] ,
+            width=200,
+            use_column_width=True,
+            clamp=True,
+            
+)
+
+       
+
+
 #caption = "hello!"
 
         
