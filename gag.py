@@ -10,7 +10,7 @@ url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anima
 st.image(
             [url],
             caption=["congrats"] ,
-          image.resize(300, 200)
+        )
           
 
 #caption = "hello!"
@@ -19,7 +19,7 @@ st.image(
 n_words =st.number_input('Type the number of words you want to generate')
 seed_text =st.text_input('Type the number of words you want to generate after')
 
-)
+
 if n_words or seed_text:
     st.warning("generate_text")
 else:
