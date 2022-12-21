@@ -6,11 +6,21 @@ st.title("DR. MAHMOUD SITE.")
 #if st.checkbox('checkbox'):
    # st.image('medo1.png')
 url = "https://bgremoval.streamlit.app/~/+/media/e41ef1cefe668882972d74a560811abe2134ebe7cdf41d69e50f5ae8.png"
-caption = "ahoy!"
+#caption = "hello!"
 
         
 #image = Image.open('url')
-st.image([url],use_column_width=True)
+st.image(
+            [url],
+            caption=["congrats"] ,
+            width=200,
+            use_column_width=True,
+            clamp=True,
+            
+)
+
+       
+
 
 n_words =st.number_input('Type the number of words you want to generate')
 seed_text =st.text_input('Type the number of words you want to generate after')
