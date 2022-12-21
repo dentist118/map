@@ -11,16 +11,7 @@ url = "https://raw.githubusercontent.com/danielgatis/rembg/master/examples/anima
 
         
 #image = Image.open('url')
-st.image(
-            [url],
-            caption=["congrats"] ,
-            width=200,
-            use_column_width=True,
-            clamp=True,
-            
-)
 
-       
 
 
 n_words =st.number_input('Type the number of words you want to generate')
