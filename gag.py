@@ -9,15 +9,8 @@ url = "https://bgremoval.streamlit.app/~/+/media/e41ef1cefe668882972d74a560811ab
 caption = "ahoy!"
 
         
-st.image([url] * 1, caption=[caption] * 1)
-st.image(
-            image,
-            caption=["some caption"] * 1,
-            width=200,
-            use_column_width=True,
-            clamp=True,
-            
-        )
+image = Image.open([url])
+st.image(image,use_column_width=True)
 
 n_words =st.number_input('Type the number of words you want to generate')
 seed_text =st.text_input('Type the number of words you want to generate after')
