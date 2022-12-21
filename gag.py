@@ -12,7 +12,7 @@ st.image(
             caption=["congrats"] ,
             width=200,
             
-            clamp=True,
+            clamp=False,
             
 )
 
